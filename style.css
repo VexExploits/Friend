@@ -56,46 +56,4 @@ body{
     justify-content: center;
     min-height: 100vh;
     
-}
-.wrapper{
-    display: inline-flex;
-    
-}
-
-.wrapper .static-txt{
-    color: #fff;
-    font-size: 10px;
-    font-weight: 400;
-    
-}
-.wrapper .dynamix-txts{
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
-    background: red;
-    overflow: hidden;
-    
-    
-}
-.wrapper li{
-    list-style: none;
-    font-size: 12px;
-}
-.dynamics-txts li span{
-    content: "";
-    position: absoloute;
-    background: #343F4F;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #FC6D6D;
-     animation: typing 1.5s steps(10) infinite;
-}
-@keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-}
-}
-
 
